@@ -1,0 +1,79 @@
+body{
+	background-color: #424242;
+}
+
+.navbar{
+background-color: #212121;
+}
+
+.navbar a{
+color: white;
+font-weight: bold;
+}
+
+.navbar a:hover{
+background-color: #212121;
+color: black;
+}
+
+btn-search{
+background: #5d4037;
+}
+
+.table a{
+	color: black;
+	background-color: #616161;
+}
+
+.table th{
+	color: black;
+	background-color: #616161;
+}
+
+.table td{
+	color: black;
+	background-color: #616161;
+}
+h1{
+	color: white;
+	background-color: #212121;
+	padding: 5px;
+}
+h2{
+	color: white;
+	background-color: #212121;
+	padding: 5px;
+}
+h3{
+	color: white;
+	background-color: #212121;
+	padding: 5px;
+}
+h4{
+	color: white;
+	background-color: #212121;
+	padding: 5px;
+}
+p{
+	color: white;
+	text-align: center;
+	background: #212121;
+	padding: 20px;
+	font-size: 15px;
+}
+
+.btn-search{
+	color: white;
+	background-color: #424242;
+	margin: 5px;
+}
+
+.btn-submit{
+	color: white;
+	background-color: #212121;
+	margin: 5px;
+}
+
+.note{
+	color: black;
+}

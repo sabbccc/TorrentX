@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TorrentX</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-custom">
+        <div class="container-fluid">
+
+            <!-- Logo -->
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-brand">TorrentX</a>
+            </div>
+
+            <!-- Menu Items -->
+            <div>
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Top Torrents<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="movies.html">Movies</a></li>
+                            <li><a href="games.html">Games</a></li>
+                            <li><a href="#">Softwares</a></li>
+                            <li><a href="#">Others</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="upload.html">Upload</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+
+                <!--right align -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="registration.html">Register</a></li>
+                    <li>
+                    <form class="navbar-form">
+                		<div class="form-group">
+                			<input type="text" class="form-control" placeholder="Search">	
+                		</div>
+                		<button type="submit" class="btn btn-search">Search</button>   	
+                	</form>
+                	</li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="container">  
+<div class="col-9 page-content contact-page">
+<div class="box-info">
+<div class="box-info-heading"><h1> Login to TorrentX </h1></div>
+<div class="box-info-detail no-top-radius">
+<form method="post" id="contact-form">
+<div class="form-row login-field">
+<h4>Username:</h4>
+<input name="username" type="text" value="" class="form-control">
+</div>
+<div class="form-row login-field">
+<h4>Password:</h4>
+<input name="password" type="password" value="" class="form-control">
+<small class="note">If you forgot your password click <a href="/forgot_password">here</a>.</small>
+</div>
+<div class="form-row">
+<input type="submit" name="submit" value="Login" class="btn btn-submit">
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
